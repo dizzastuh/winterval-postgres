@@ -1,9 +1,15 @@
+# Go sum file -- can be an unnecessary source of conflicts
+go.sum
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+
+# Compiled golang binaries
+bin/
 
 # Test binary, built with `go test -c`
 *.test
@@ -13,3 +19,6 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Environment files
+**/*.env
