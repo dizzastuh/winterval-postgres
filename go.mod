@@ -2,7 +2,7 @@ module github.com/dizzastuh/winterval-postgres
 
 go 1.16
 
-replace github.com/dizzastuh/winterval-postgres => ./
+replace github.com/dizzastuh/winterval-postgres/internal/db => ./internal/db
 
 require (
 	github.com/dizzastuh/winterval-postgres v0.0.0

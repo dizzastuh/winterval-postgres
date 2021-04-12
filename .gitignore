@@ -1,6 +1,3 @@
-# Go sum file -- can be an unnecessary source of conflicts
-go.sum
-
 # Binaries for programs and plugins
 *.exe
 *.exe~
